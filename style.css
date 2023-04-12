@@ -547,13 +547,43 @@ color: #ff9529;
  .about-container{
   flex-direction: column;
  }
+  
+ .about-text h2{
+  margin-bottom: 1em;
+}
+
+.about-img{
+  padding:0;
+}
+
 
 /* ######################## FOOD CATEGORY #################### */
+
+ .about-text{
+         
+  padding: 0;
+  text-align: center;
+   margin: auto;
+}  
 
  .food-container{
   flex-direction: column;
   align-items: strech;
  }
+
+ .food-menu-item{
+  flex-direction: column;
+ }
+
+.food-image{
+  margin: 1em auto;
+}
+
+.food-description{
+  text-align: center;
+  margin: 1em 0 1em 0;
+ }
+
 
  .food-type:not(:last-child){
   margin-bottom: 3rem;
@@ -567,6 +597,15 @@ color: #ff9529;
  .img-container{
   margin: 0;
  }
+
+ .testimonial-container{
+  flex-direction: column;
+}
+
+.testimonial-box{
+  
+  margin: 2em 0 2em 0;
+}
   
 }
 
